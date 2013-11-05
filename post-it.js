@@ -59,5 +59,5 @@ PostIt = {
 };
 
 $(document).ready(function() {
-  Board.initialize()
+  Board.initialize();
  });

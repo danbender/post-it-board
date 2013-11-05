@@ -92,6 +92,7 @@ h4:hover, h4:focus, p:hover, p:focus {
   color: #666;
 }
 
+
 @media screen and (max-width: 1000px) {
   .post-it {
     min-width: 35%;
