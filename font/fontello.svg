@@ -6,6 +6,7 @@
 <font id="fontello" horiz-adv-x="1000" >
 <font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
 <missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cancel" unicode="&#xe804;" d="m724 112q0-22-15-38l-76-76q-16-15-38-15t-38 15l-164 165l-164-165q-16-15-38-15t-38 15l-76 76q-16 16-16 38t16 38l164 164l-164 164q-16 16-16 38t16 38l76 76q16 16 38 16t38-16l164-164l164 164q16 16 38 16t38-16l76-76q15-15 15-38t-15-38l-164-164l164-164q15-15 15-38z" horiz-adv-x="785.7" />
 <glyph glyph-name="doc-add" unicode="&#xe800;" d="m573 350q21 0 36-15t16-37t-16-36t-36-15l-104 0l0-105q0-22-16-37t-37-15t-36 15t-15 37l0 105l-105 0q-21 0-36 15t-15 36t15 37t36 15l105 0l0 104q0 21 15 37t36 16t37-16t16-37l0-104l104 0z m245 245q16-16 16-36l0-521q0-65-46-111t-110-46l-522 0q-65 0-110 46t-46 111l0 625q0 65 46 110t110 46l417 0q22 0 37-15z m-110-36l-135 134l0-56q0-32 23-55t55-23l57 0z m-30-574q21 0 36 16t15 37l0 469l-78 0q-53 0-92 38t-38 92l0 78l-365 0q-21 0-37-15t-15-37l0-625q0-21 15-37t37-16l522 0z" horiz-adv-x="834" />
 <glyph glyph-name="plus" unicode="&#xe803;" d="m0 209l0 282l359 0l0 359l282 0l0-359l359 0l0-282l-359 0l0-359l-282 0l0 359l-359 0z" horiz-adv-x="1000" />
 <glyph glyph-name="plus-circled" unicode="&#xe802;" d="m0 350q0 207 147 354t353 146t354-146t146-354t-146-354t-354-146t-353 146t-147 354z m219-80l201 0l0-201l160 0l0 201l201 0l0 160l-201 0l0 201l-160 0l0-201l-201 0l0-160z" horiz-adv-x="1000" />
