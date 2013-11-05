@@ -11,8 +11,21 @@ PostIt = {
   initialize: function() {
     PostIt.addNewPost();
     PostIt.dragPost();
-    $('.post-it h4').click(function(){
-      PostIt.editTitle();
+    PostIt.bindEvents();
+  },
+
+  bindEvents: function(){
+    $('.post-it h4').dblclick(function(){
+      PostIt.editNote();
+    }),
+    $('.post-it p').dblclick(function(){
+      PostIt.editNote();
+    }),
+    $('.post-it h4').blur(function(){
+      PostIt.stopEdit();
+    }),
+    $('.post-it p').blur(function(){
+      PostIt.stopEdit();
     })
   },
 
@@ -25,10 +38,18 @@ PostIt = {
     $('#board').append(newPostItem);
   },
 
-  editTitle: function(){
+  editNote: function(){
+    $('.post-it h4').attr("contenteditable",true);
+    $('.post-it p').attr("contenteditable",true);
 
-    console.log("clicked");
+    $('.post-it').draggable({disabled:true});
+  },
+
+  stopEdit: function(){
+    $('.post-it').draggable({disabled:false});
   }
+
+
 
 };
 

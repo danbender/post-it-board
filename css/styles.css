@@ -2,7 +2,7 @@ html {
   margin: 0 auto;
   padding: 0 auto;
   color: #384047;
-  background-color: #f6f9fa;
+  background-color: #f2f2f2;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -19,7 +19,7 @@ html {
 #add-post-it {
   position: absolute;
   left: 1%;
-  top: 4%;
+  top: 6%;
   text-align: center;
 }
 
@@ -37,7 +37,8 @@ html {
   left: 5%;
   top: 20%;
   width: 25%;
-  height: 20%;
+  min-height: 25%;
+  max-height: auto;
   background-color: #fff;
   box-shadow: 0 3px 0 #e5eef1;
   overflow: hidden;
