@@ -88,6 +88,8 @@ p {
 
 h4:hover, h4:focus, p:hover, p:focus {
   outline: 1px dotted;
+  cursor: pointer;
+  color: #666;
 }
 
 @media screen and (max-width: 1000px) {
