@@ -3,7 +3,6 @@ Board = {
     $('.icon-plus-circled').click(function() {
       PostIt.initialize();
     });
-    var $elem = $("selector");
   }
 };
 
@@ -41,20 +40,14 @@ PostIt = {
   editNote: function(){
     $('.post-it h4').attr("contenteditable",true);
     $('.post-it p').attr("contenteditable",true);
-
     $('.post-it').draggable({disabled:true});
   },
 
   stopEdit: function(){
     $('.post-it').draggable({disabled:false});
   }
-
-
-
 };
 
 $(document).ready(function() {
   Board.initialize()
-  // Board.new('#board');
-
  });
