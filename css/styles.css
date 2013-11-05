@@ -26,9 +26,10 @@ html {
   font-size: 3.125em;
 }
 
-.icon-plus-circled:hover, .icon-plus-circled:focus {
+.icon-plus-circled:hover, .icon-plus-circled:focus,
+.icon-cancel:hover, .icon-cancel:focus {
  cursor: pointer;
- color: #505050;
+ color: #666;
 }
 
 .post-it {
@@ -44,6 +45,12 @@ html {
   display: inline-block;
   border-radius: 5px;
   z-index: 1000;
+}
+
+.icon-cancel {
+  position: absolute;
+  top: 3px;
+  right: 1px;
 }
 
 .post-it .header {
