@@ -7,7 +7,7 @@ Just a simple post-it board by *[Steveo1485](https://github.com/Steveo1485)* and
 * A guest can delete a post-it
 * A guest can move a post-it (drag and drop)
 
-![Post-it Board](http://i3.minus.com/jbxG7x2jq6rsPO.jpg)
+![Post-it Board](http://i.minus.com/jbaWlC4erPFu0P.jpg)
 
 
 
